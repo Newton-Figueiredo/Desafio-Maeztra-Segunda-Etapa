@@ -124,7 +124,7 @@ export default function AccordionSection() {
 
       <div className="accordion-desk hidden lg:flex flex-row justify-center items-center" id="accordionExample5">
         <div className='max-w-screen-2xl flex flex-row items-start py-6'>
-          <div className='px-20' >
+          <div className='px-[100px]' >
             <ul>
               <li className='py-3 text-[#353535] text-base font-semibold'>Informações </li>
               <li className='py-3 text-xs'> Quem Somos </li>
@@ -133,7 +133,7 @@ export default function AccordionSection() {
               <li className='py-3 text-xs'> Promoções e Cupons</li>
             </ul>
           </div >
-          <div className='px-20'> 
+          <div className='px-[100px]'> 
             <ul>
               <li className='py-3 text-[#353535] text-base font-semibold'>Minha Conta </li>
               <li className='py-3 text-xs'> Minha Conta </li>
@@ -141,7 +141,7 @@ export default function AccordionSection() {
               <li className='py-3 text-xs'> Cadastre-se </li>
             </ul>
           </div>
-          <div className='px-20'>
+          <div className='px-[100px]'>
             <ul>
               <li className='py-3 text-[#353535] text-base font-semibold'> Onde nos Encontrar </li>
               <li className='py-3 text-xs'> Lojas</li>
