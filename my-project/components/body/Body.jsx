@@ -3,6 +3,7 @@ import Labels from "./Labels/Labels"
 import BrandsShelf from "./Marcas-Parceiras/BrandsShelf"
 import InfoCard from "../body/InfoCard/InfoCard"
 import Newsletter from "../body/Newsletter/Newsletter"
+import Accordion from "../body/Accordion/Accordion"
 
 export default function Body(){
     return(
@@ -27,6 +28,7 @@ export default function Body(){
         </div>
         <InfoCard/>
         <Newsletter/>
+        <Accordion/>
         </div>
     )
 }

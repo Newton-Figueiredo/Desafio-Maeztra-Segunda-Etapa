@@ -1,12 +1,14 @@
-import type { NextPage } from 'next'
 import Header from "../components/header/Header"
 import Body from "../components/body/Body"
+import Footer from "../components/footer/Footer"
 
-const Home: NextPage = () => {
+
+const Home = () => {
   return (
     <>
     <Header/>
     <Body/>
+    <Footer/>
     </>
   )
 }
