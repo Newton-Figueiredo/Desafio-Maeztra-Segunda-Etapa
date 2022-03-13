@@ -62,16 +62,3 @@ button#button-addon4 {
 svg.icon-enviar {
   margin-left: 5px;
 }
-@media (min-width:1024px) {
-  .undefined.flex.flex-row.justify-center.items-center {
-    width: 50%;
-    position: relative;
-    top: 80px;
-    left: 400px;
-  }
-}
-
-.undefined.flex.flex-row.justify-center.items-center {
-  position: relative;
-  bottom: -100px;
-}

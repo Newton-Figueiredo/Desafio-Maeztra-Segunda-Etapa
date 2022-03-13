@@ -7,15 +7,19 @@
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+    
     z-index: 999;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
   .popup {
     padding: 20px;
     background: #fff;
     width: 100%;
     position: relative;
-    transition: all 1s ease-in-out;
+    
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -50,7 +54,6 @@
     position: absolute;
     top: -25px;
     right: 0px;
-    transition: all 200ms;
     font-size: 15px;
     font-weight: normal;
     text-decoration: none;
@@ -84,7 +87,6 @@
       background: #fff;
       width: 400px;
       position: relative;
-      transition: all 1s ease-in-out;
       height: max-content;
       display: flex;
       flex-direction: column;
