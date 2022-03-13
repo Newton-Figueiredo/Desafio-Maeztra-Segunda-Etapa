@@ -1,14 +1,16 @@
 import Disclaimer from "./Disclaimer"
-import Navbar from "./Navbar"
+import Navbarv2 from "../header-v2/navbar/Navbarv2"
 import Submenu from "./Submenu"
 
 
 export default function Header(){
     return(
-        <div className={`flex-auto justify-center `}>
+        <div className={`header-container flex-auto justify-center h-[104px] w-full bg-white z-50 `}>
+            <div className={`header-content flex-auto justify-center fixed w-full bg-white z-50`} >
             <Disclaimer/>
-            <Navbar/>
+            <Navbarv2/>
             <Submenu/>
+            </div>
         </div>
     )
 }
