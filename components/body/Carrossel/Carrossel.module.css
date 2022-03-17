@@ -1,0 +1,124 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.container .carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 300px;
+  flex-direction: row;
+}
+
+.container .carrossel::-webkit-scrollbar {
+  display: none;
+}
+
+.button {
+  width: 280px;
+  height: 35px;
+  background: #faa500;
+  border-radius: 4px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 150px;
+}
+
+.item {
+  width: 308px;
+  margin: 0px 10px;
+}
+
+.price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #353535;
+}
+
+.productName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.disclaimer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.passButtons{
+    position: relative;
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.passButtonsContent{
+    display: flex;
+    position: absolute;
+    width: 98%;
+    justify-content: space-between;
+    bottom: 220px;
+}
+.lButtons{
+
+}
+.rButtons{
+
+}
+@media (min-width: 768px) {
+    .container .carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 600px;
+  flex-direction: row;
+}
+}
+@media (min-width: 900px) {
+    .container .carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 900px;
+  flex-direction: row;
+}
+}
+@media (min-width: 1200px) {
+    .container .carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 1200px;
+  flex-direction: row;
+}
+}
+
+@media (min-width: 1500px) {
+    .container .carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 1500px;
+  flex-direction: row;
+}
+}
+
