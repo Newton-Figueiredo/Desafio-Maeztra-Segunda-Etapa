@@ -5,6 +5,7 @@ import InfoCard from "../body/InfoCard/InfoCard"
 import Newsletter from "../body/Newsletter/Newsletter"
 import Accordion from "../body/Accordion/Accordion"
 import CardSlider from "./Card-Slider/CardSlider";
+import Carrossel from "../body/Carrossel/Carrossel"
 
 export default function Body(){
     return(
@@ -27,6 +28,7 @@ export default function Body(){
                 As Mais Pedidas
             </span>
         </div>
+        <Carrossel/>
         <InfoCard/>
         <Newsletter/>
         <Accordion/>
