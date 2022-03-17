@@ -38,7 +38,7 @@ export default function CardSlider() {
                             className={`${slideIndex === index + 1 ? `slide active-anim` : "slide"} flex flex-col justify-center items-start bg-cover w-3/4`}
                             style={{ backgroundImage: `url(${obj.url})` }}
                         >
-                            <div className='w-3/4 pl-52 flex flex-col'>
+                            <div className='w-3/4 pl-20 lg:pl-52 flex flex-col'>
                                 <h2 className={` text-[40px] text-white font-bold leading-[40px] py-2 text-left`}>
                                     {obj.title}
                                 </h2>
